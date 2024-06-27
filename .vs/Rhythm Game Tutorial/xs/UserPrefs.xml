@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{803FE9B2-0EED-15F3-AF50-8274146B1EC4}|">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/Scripts/SongManager.cs" Line="23" Column="21" />
+      <File FileName="Assets/Scripts/Note.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Lane.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Rhythm Game Tutorial" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="TextMesh Pro" expanded="True" />
+              <Node name="Melanchall.DryWetMidi.dll" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="05616048-a149-48bf-9c1d-20472d7a1692" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
