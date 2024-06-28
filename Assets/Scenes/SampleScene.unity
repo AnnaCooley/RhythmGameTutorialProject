@@ -321,7 +321,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bd87b666bbef3e8439bc86786b9d5d39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 06a4057f9b52db2489b4d4970c7f4fbe, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -577,9 +577,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  noteRestriction: 2
+  octaveRestriction: 4
+  input: 100
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &270336270
 Transform:
@@ -589,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270336268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -918,9 +919,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  noteRestriction: 9
+  octaveRestriction: 4
+  input: 97
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &623014381
 Transform:
@@ -947,7 +949,7 @@ GameObject:
   - component: {fileID: 633316278}
   - component: {fileID: 633316277}
   m_Layer: 0
-  m_Name: Lane4
+  m_Name: LaneG4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -965,9 +967,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 11
-  input: 275
-  notePrefab: {fileID: 1534850418514208906, guid: 9043eb2d71628404d9dfdc92d43fc48c, type: 3}
+  noteRestriction: 7
+  octaveRestriction: 4
+  input: 103
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &633316278
 Transform:
@@ -1013,9 +1016,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  noteRestriction: 0
+  octaveRestriction: 4
+  input: 99
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &767390713
 Transform:
@@ -1025,7 +1029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767390711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1224,9 +1228,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  noteRestriction: 0
+  octaveRestriction: 5
+  input: 99
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1145943226
 Transform:
@@ -1335,7 +1340,7 @@ GameObject:
   - component: {fileID: 1441840088}
   - component: {fileID: 1441840087}
   m_Layer: 0
-  m_Name: Lane3
+  m_Name: LaneB4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1353,9 +1358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 9
-  input: 274
-  notePrefab: {fileID: 6401272534080061571, guid: a043c4f729c0ef1429ea13081611a298, type: 3}
+  noteRestriction: 11
+  octaveRestriction: 4
+  input: 98
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1441840088
 Transform:
@@ -1401,9 +1407,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  noteRestriction: 4
+  octaveRestriction: 5
+  input: 101
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1464728594
 Transform:
@@ -1449,8 +1456,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  octaveRestriction: 4
+  input: 102
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1706445247
 Transform:
@@ -1498,14 +1506,21 @@ MonoBehaviour:
   audioSource: {fileID: 159419516}
   lanes:
   - {fileID: 2073587298}
+  - {fileID: 1464728593}
   - {fileID: 1856990796}
+  - {fileID: 1145943225}
   - {fileID: 1441840087}
+  - {fileID: 623014380}
   - {fileID: 633316277}
-  songDelayInSeconds: 0
-  marginOfError: 0.07
-  inputDelayInMilliseconds: 0
-  fileLocation: we_made_a_chart_pog.mid
-  noteTime: 1
+  - {fileID: 1706445246}
+  - {fileID: 1805925936}
+  - {fileID: 270336269}
+  - {fileID: 767390712}
+  songDelayInSeconds: 1
+  marginOfError: 0.5
+  inputDelayInMilliseconds: 1
+  fileLocation: TwinkleTwinkleTest.mid
+  noteTime: 0.7
   noteSpawnY: 7
   noteTapY: -3
 --- !u!4 &1787680573
@@ -1533,7 +1548,7 @@ GameObject:
   - component: {fileID: 1805925937}
   - component: {fileID: 1805925936}
   m_Layer: 0
-  m_Name: Lane5
+  m_Name: LaneE4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1551,9 +1566,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 11
-  input: 275
-  notePrefab: {fileID: 1534850418514208906, guid: 9043eb2d71628404d9dfdc92d43fc48c, type: 3}
+  noteRestriction: 4
+  octaveRestriction: 4
+  input: 101
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1805925937
 Transform:
@@ -1581,7 +1597,7 @@ GameObject:
   - component: {fileID: 1856990797}
   - component: {fileID: 1856990796}
   m_Layer: 0
-  m_Name: Lane2
+  m_Name: LaneD5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,9 +1615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 7
-  input: 273
-  notePrefab: {fileID: 4003208864679534659, guid: b93f007ca30546343b6fb9f22a218a42, type: 3}
+  noteRestriction: 2
+  octaveRestriction: 5
+  input: 100
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &1856990797
 Transform:
@@ -1711,7 +1728,7 @@ GameObject:
   - component: {fileID: 2073587299}
   - component: {fileID: 2073587298}
   m_Layer: 0
-  m_Name: Lane1
+  m_Name: LaneF5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,8 +1747,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteRestriction: 5
-  input: 276
-  notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
+  octaveRestriction: 5
+  input: 102
+  notePrefab: {fileID: 6458951264812482857, guid: f0b4f40481b6cf74dbc335df0d1e8678, type: 3}
   timeStamps: []
 --- !u!4 &2073587299
 Transform:
